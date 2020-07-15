@@ -115,8 +115,10 @@ C:\Users\Shadow\Desktop\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet.Test
 C:\Users\Shadow\Desktop\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet.Tests\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.Tests.csprojAssemblyReference.cache
 C:\Users\Shadow\Desktop\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet.Tests\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.Tests.AssemblyInfoInputs.cache
 C:\Users\Shadow\Desktop\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet.Tests\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.Tests.AssemblyInfo.cs
-C:\Users\Shadow\Desktop\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet.Tests\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Shadow\Desktop\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet.Tests\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.Tests.csproj.CopyComplete
 C:\Users\Shadow\Desktop\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet.Tests\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.Tests.dll
 C:\Users\Shadow\Desktop\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet.Tests\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.Tests.pdb
 C:\Users\Shadow\Desktop\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet.Tests\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.Tests.genruntimeconfig.cache
+C:\Users\Shadow\Desktop\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Shadow\Desktop\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet.Tests\bin\Debug\netcoreapp3.1\Moq.dll
+C:\Users\Shadow\Desktop\ESGI.DesignPattern.Projet\ESGI.DesignPattern.Projet.Tests\obj\Debug\netcoreapp3.1\ESGI.DesignPattern.Projet.Tests.csproj.CoreCompileInputs.cache

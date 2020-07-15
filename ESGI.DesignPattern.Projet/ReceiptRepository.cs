@@ -6,6 +6,7 @@ using System.Runtime.Serialization;
 namespace ESGI.DesignPattern.Projet
 {
     
+    
     public class ReceiptRepository : IReceiptRepository
     {
         //private static readonly string databaseName = "myshop";
@@ -13,7 +14,10 @@ namespace ESGI.DesignPattern.Projet
         //private static readonly string pass = "123456";
 
         private static DbConnection dbConnection;
-        
+        public ReceiptRepository()
+        {
+            dbConnection = DbConnection.Instance();
+        }
 
     public void Delete(int id)
         {
@@ -22,7 +26,7 @@ namespace ESGI.DesignPattern.Projet
 
         public void Insert(Receipt receipt)
             {
-                if (dbConnection.IsConnect())
+                if (dbConnection.Connect())
                     {
                         var command = new MySqlCommand("insert into RECEIPT (AMOUNT, TAX, TOTAL)"
                                             + "values(@amount, @tax, @total);", dbConnection.Connection);

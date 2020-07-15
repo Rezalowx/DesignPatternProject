@@ -6,26 +6,28 @@ namespace ESGI.DesignPattern.Projet
 {
     public class ReceiptBuilder
     {
-        private decimal _amount;
+        private Money _amount;
         private Money _tax;
         private Money _total;
 
         public ReceiptBuilder WithAmount(decimal amount)
         {
+            _amount = new Money(amount);
+            return this;
+        }
+        public ReceiptBuilder WithTax(int tax)
+        {
 
-            _amount = amount;
-
+            _tax = _amount.Percentage(tax);
             return this;
         }
 
-        
+
         public Receipt Build()
         {
-            Money amount = new Money(_amount);
 
-            _tax = amount.Percentage(20);
-            _total = amount.Add(_tax);
-            return new Receipt(amount, _tax, _total);
+            _total = _amount.Add(_tax);
+            return new Receipt(_amount, _tax, _total);
         }
 
     }

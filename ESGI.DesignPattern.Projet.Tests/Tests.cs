@@ -1,4 +1,5 @@
 ﻿using System;
+using Moq;
 using System.Diagnostics;
 using Xunit;
 
@@ -7,7 +8,7 @@ namespace ESGI.DesignPattern.Projet.Tests
     public class Tests
     {
         [Fact]
-        public void Checkout()
+        public void CreateReceiptTest()
         {
           
             ReceiptBuilder receiptBuilder = new ReceiptBuilder();
@@ -15,6 +16,7 @@ namespace ESGI.DesignPattern.Projet.Tests
             Receipt receipt =
                     receiptBuilder
                         .WithAmount(10)
+                        .WithTax(20)
                         .Build();
 
 
@@ -29,7 +31,14 @@ namespace ESGI.DesignPattern.Projet.Tests
             Assert.Equal(dumpOutput, test);
 
         }
-
-    }
+        
+        [Fact]
+        public void DbConnectionTest()
+        {
+            Mock<iDbConnection> mockdbConnection = new Mock<iDbConnection>();
+            mockdbConnection.Setup(x => x.Connect());
+            
+        }
+}
 }
 

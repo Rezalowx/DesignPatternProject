@@ -8,6 +8,10 @@ namespace ESGI.DesignPattern.Projet
     {
         private readonly decimal value;
 
+        public Money()
+        {
+
+        }
         public Money(int value) => this.value = value;
 
         public Money(decimal value) => this.value = value;
